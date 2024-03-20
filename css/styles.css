@@ -84,7 +84,14 @@
 *::after {
   box-sizing: border-box;
 }
+.img-portafolio{
+  width: 50%;
+  min-height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
 
+}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
