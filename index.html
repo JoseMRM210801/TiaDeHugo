@@ -20,16 +20,21 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">Alteration for the future</a>
+                <a class="navbar-brand" href="#page-top" id="tituloNav">Alterations for the future</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services" id="navServicios">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio" id="navPortafolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" id="navContacto">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" >
+                            <div class="d-flex justify-content-between">
+                                <img src="./assets/img/bandera.png" alt="Es" class="img-idioma" id="btnEspanol">
+                                <img src="./assets/img/estados-unidos.png" alt="En"  class=" img-idioma" id="btnIngles">
+                            </div>
                     </ul>
                 </div>
             </div>
@@ -37,17 +42,17 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome To <strong class="text-warning">Alteration fot the future!</strong></div>
-                <div class="masthead-heading text-uppercase">WE FIX YOURS CLOTHES</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="tel:+19496241346" >CALL FOR MORE</a>
+                <div class="masthead-subheading" >Welcome To <strong class="text-warning" id="bienvenidaStrong">Alterations For The Future!</strong></div>
+                <div class="masthead-heading text-uppercase" id="fraseHero">WE FIX YOUR CLOTHES</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="tel:+19496241346" id="btnLlamar">CALL FOR MORE</a>
             </div>
         </header>
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Now You will see some of Our Services.</h3>
+                    <h2 class="section-heading text-uppercase" id="servicios">Services</h2>
+                    <h3 class="section-subheading text-muted" id="descripcionServicios">Now You will see some of Our Services.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
@@ -55,24 +60,24 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Prices</h4>
-                        <p class="text-muted">Our Prices are Based on the Type of work required and the time it takes.</p>
+                        <h4 class="my-3" id="precios">Prices</h4>
+                        <p class="text-muted" id="descripcionPrecios">Our Prices are Based on the Type of work required and the time it takes.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Time</h4>
-                        <p class="text-muted">We make sure that your work is done in a timely manner.</p>
+                        <h4 class="my-3" id="tiempo">Time</h4>
+                        <p class="text-muted" id="descripcionTiempo">We make sure that your work is done in a timely manner.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Security</h4>
-                        <p class="text-muted">Rest assured that our work is quality.</p>
+                        <h4 class="my-3" id="seguridad">Security</h4>
+                        <p class="text-muted" id="descripcionSeguridad">Rest assured that our work is quality.</p>
                     </div>
                 </div>
             </div>
@@ -81,8 +86,9 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">You Can See Our Work!</h3>
+                    <h2 class="section-heading text-uppercase" id="portafolio">Portfolio</h2>
+                    <h3 class="section-subheading text-muted" 
+                    id="descripcionPortafolio">You Can See Our Work!</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -96,7 +102,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Jeans</div>
-                                <div class="portfolio-caption-subheading text-muted">Any Tipe Of Jeans And Material.</div>
+                                <div class="portfolio-caption-subheading text-muted" id="descripcionJeans">Any Tipe Of Jeans And Material.</div>
                             </div>
                         </div>
                     </div>
@@ -110,8 +116,8 @@
                                 <img class="img-fluid img-portafolio" src="assets/img/portfolio/Tipo Polo.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Shirts</div>
-                                <div class="portfolio-caption-subheading text-muted">size and other adjustments</div>
+                                <div class="portfolio-caption-heading" id="playeras">Shirts</div>
+                                <div class="portfolio-caption-subheading text-muted" id="descripcionPlayeras">size and other adjustments</div>
                             </div>
                         </div>
                     </div>
@@ -125,8 +131,8 @@
                                 <img class="img-fluid img-portafolio" src="assets/img/portfolio/New folder/sudadera.jpeg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Sweatshirts</div>
-                                <div class="portfolio-caption-subheading text-muted">Any Tipe</div>
+                                <div class="portfolio-caption-heading" id="sueter">Sweatshirts</div>
+                                <div class="portfolio-caption-subheading text-muted" id="descripcionSueter">Any Tipe</div>
                             </div>
                         </div>
                     </div>
@@ -141,7 +147,7 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Pants</div>
-                                <div class="portfolio-caption-subheading text-muted">For Sports</div>
+                                <div class="portfolio-caption-subheading text-muted" id="descripcionPants">For Sports</div>
                             </div>
                         </div>
                     </div>
@@ -155,8 +161,8 @@
                                 <img class="img-fluid img-portafolio" src="assets/img/portfolio/New folder/Chaquetas.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Jackets</div>
-                                <div class="portfolio-caption-subheading text-muted">Fashion And Designing</div>
+                                <div class="portfolio-caption-heading" id="chaquetas">Jackets</div>
+                                <div class="portfolio-caption-subheading text-muted" id="descripcionChaquetas">Fashion And Designing</div>
                             </div>
                         </div>
                     </div>
@@ -167,11 +173,11 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/New folder/Telas.png" alt="..." />
+                                <img class="img-fluid img-portafolio" src="assets/img/portfolio/New folder/ropaDama.jpeg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Others</div>
-                                <div class="portfolio-caption-subheading text-muted">Other Kind Of Clothes</div>
+                                <div class="portfolio-caption-heading" id="mujeres">Women's Clothing</div>
+                                <div class="portfolio-caption-subheading text-muted" id="descripcionMujeres">Women's Clothing</div>
                             </div>
                         </div>
                     </div>
@@ -534,12 +540,11 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Others</h2>
+                                    <h2 class="text-uppercase">Women's Clothing</h2>
                                     <p class="item-intro text-muted">Reviving Your Clothes, <strong class="text-warning">Redefining Style</strong></p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/New folder/Telas.png" alt="..." />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/New folder/RopaDama.jpeg" alt="..." />
                                     <p>
-                                        Welcome to Alterations for the Future, your one-stop solution for all fabric alterations. Our skilled artisans excel in transforming a wide range of materials, ensuring every piece is handled with precision and care. Trust us to breathe new life into your beloved items, from delicate silks to robust wools. Discover the true potential of your wardrobe with our unparalleled craftsmanship.
-                                    </p>
+                                        Discover the essence of style with our exclusive women's clothing collection. From timeless classics to modern trends, each piece is designed to enhance and celebrate your unique beauty. Indulge in our selection of fabrics, colors, and designs tailored to fit every aspect of your lifestyle. Embrace elegance, comfort, and sophistication with every garment, crafted just for you.                                    </p>
                                     
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>

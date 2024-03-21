@@ -84,6 +84,10 @@
 *::after {
   box-sizing: border-box;
 }
+.img-idioma{
+  width: 25px;
+  height: 25px;
+}
 .img-portafolio{
   width: 50%;
   min-height: 250px;
