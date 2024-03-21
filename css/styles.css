@@ -87,6 +87,7 @@
 .img-idioma{
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 .img-portafolio{
   width: 50%;

@@ -102,6 +102,29 @@ document.getElementById("btnEspanol").addEventListener("click", function () {
 
     document.getElementById('mujeres').innerHTML = 'Ropa de Mujer';
     document.getElementById('descripcionMujeres').innerHTML = 'Ropa de Mujer';
+
+    document.getElementById('contacto').innerHTML = 'Contáctanos';
+    document.getElementById('descripcionContacto').innerHTML = 'Estamos aquí para ayudarte con cualquier pregunta que puedas tener.';
+
+    document.getElementById('envioExitoso').innerHTML = 'Envío exitoso';
+    document.getElementById('submitButton').innerHTML = 'Enviar Mensaje';
+
+    document.getElementById('descripcionModalJeans').innerHTML = 'Bienvenido a nuestro taller especializado en reparación de jeans, donde aportamos experiencia en la reparación de todo tipo de mezclilla. Nuestro equipo destaca especialmente en la restauración de vaqueros resistentes al fuego, garantizando que conserven sus cualidades protectoras y su estilo. Confíe en nosotros para rejuvenecer sus amados jeans, desde cortes clásicos hasta pares especializados resistentes al fuego. ';
+   
+    const modalTitles = document.getElementsByClassName("modalTitle");
+    for (const modalTitle of modalTitles) {
+        modalTitle.innerHTML = `Reviviendo tu ropa, <strong class="text-warning">Redefiniendo el estilo</strong>`;
+    }
+    
+    const cerrarModales = document.getElementsByClassName("btnCerrarModal");
+    for (const cerrarModal of cerrarModales) {
+        cerrarModal.innerHTML = "Cerrar Proyecto";
+    }
+
+    document.getElementById('modalPlayera').innerHTML = 'Playeras';
+    document.getElementById('descripcionModalPlayera').innerHTML = 'Bienvenido a Alteraciones para el Futuro, tu destino principal para la rejuvenecimiento de camisetas. Nos especializamos en transformar todos los tipos de camisetas, con un énfasis único en materiales innovadores y de alto rendimiento. Nuestro equipo experto está comprometido a restaurar tus prendas queridas a su antigua gloria, asegurando que sigan siendo tus favoritas en los años venideros. Confía en nuestra habilidad artesanal para un cuidado meticuloso, ya sea reviviendo algodón clásico o tejidos técnicos avanzados.';
+  
+
 });
 
 document.getElementById("btnIngles").addEventListener("click", function () {
@@ -153,4 +176,27 @@ document.getElementById("btnIngles").addEventListener("click", function () {
 
     document.getElementById('mujeres').innerHTML = `Women's Clothing`;
     document.getElementById('descripcionMujeres').innerHTML = `Women's Clothing`;
+
+    document.getElementById('contacto').innerHTML = 'Contact Us';
+    document.getElementById('descripcionContacto').innerHTML = 'We are here to help you with any questions you may have.';
+
+    document.getElementById('envioExitoso').innerHTML = 'Form submission successful!';
+    document.getElementById('submitButton').innerHTML = 'Send Message';
+
+    document.getElementById('descripcionModalJeans').innerHTML = 'Welcome to our specialized jeans repair workshop, where we bring expertise in mending all types of denim. Our team excels particularly in restoring fire-resistant jeans, ensuring they retain their protective qualities and style. Trust us to rejuvenate your beloved denim, from classic cuts to specialized fire-resistant pairs.';
+
+    const modalTitles = document.getElementsByClassName("modalTitle");
+    for (const modalTitle of modalTitles) {
+        modalTitle.innerHTML = `Reviving Your Clothes, <strong class="text-warning">Redefining Style</strong>`;
+    }
+
+    const cerrarModales = document.getElementsByClassName("btnCerrarModal");
+    for (const cerrarModal of cerrarModales) {
+        cerrarModal.innerHTML = "Close Project";
+    }
+
+    document.getElementById('modalPlayera').innerHTML = 'Shirts';
+    document.getElementById('descripcionModalPlayera').innerHTML = 'Welcome to Alterations for the Future, your premier destination for T-shirt rejuvenation. We specialize in transforming all types of T-shirts, with a unique emphasis on innovative, high-performance materials. Our expert team is committed to restoring your cherished garments to their former glory, ensuring they remain your favorites for years to come. Trust in our skilled craftsmanship for meticulous care, whether reviving classic cotton or advanced technical fabrics.';
+  
+
 });
