@@ -61,7 +61,7 @@ document.getElementById("btnEspanol").addEventListener("click", function () {
 
   document.getElementById("bienvenidaStrong").innerHTML =
     "Alteraciones el Futuro";
-  document.getElementById("fraseHero").innerHTML = "Arreglamos tu ropa";
+  document.getElementById("fraseHero").innerHTML = "Ajustamos tu ropa";
   document.getElementById("btnLlamar").innerHTML = "Llama para más información";
 
   document.getElementById("servicios").innerHTML = "Servicios";
@@ -124,8 +124,31 @@ document.getElementById("btnEspanol").addEventListener("click", function () {
     document.getElementById('modalPlayera').innerHTML = 'Playeras';
     document.getElementById('descripcionModalPlayera').innerHTML = 'Bienvenido a Alteraciones para el Futuro, tu destino principal para la rejuvenecimiento de camisetas. Nos especializamos en transformar todos los tipos de camisetas, con un énfasis único en materiales innovadores y de alto rendimiento. Nuestro equipo experto está comprometido a restaurar tus prendas queridas a su antigua gloria, asegurando que sigan siendo tus favoritas en los años venideros. Confía en nuestra habilidad artesanal para un cuidado meticuloso, ya sea reviviendo algodón clásico o tejidos técnicos avanzados.';
   
+    document.getElementById('ModalSudadera').innerHTML = 'Sudaderas';
+    document.getElementById('descripcionModalSudadera').innerHTML = 'Bienvenido a Alterations for the Future, su destino para revivir sus preciadas sudaderas. Nuestra experiencia se extiende a la renovación de todo tipo de sudaderas, garantizando que la comodidad se encuentre con el estilo. Confíe en nuestras manos expertas para brindar calidez y nueva vida a sus capas acogedoras favoritas. Experimente la transformación con nuestra meticulosa atención al detalle y la artesanía de calidad.';
 
-});
+    document.getElementById('descripcionModalPants').innerHTML = 'Bienvenido a Alterations for the Future, donde nos especializamos en el arte de la revitalización de pantalones. Nuestro equipo posee una experiencia inigualable en la renovación de todos los estilos, con un gran enfoque en la durabilidad y el ajuste. Desde pantalones informales hasta pantalones profesionales, confíe en nosotros para restaurar sus elementos esenciales a su mejor condición. Experimente la confección de precisión y la atención personalizada con cada modificación. Adéntrate en el futuro de la moda con pantalones que se sienten nuevos';
+
+    document.getElementById('modalChaquteas').innerHTML = 'Chaquetas';
+    document.getElementById('descripcionModalChaquetas').innerHTML = 'Bienvenido a Alterations for the Future, donde tus chaquetas encuentran una nueva vida. Especializados en todo tipo de prendas de abrigo, nuestra experiencia brilla en restaurar, personalizar y mejorar cada detalle. Desde el cuero clásico hasta los sintéticos modernos, confíe en nosotros para devolver sus chaquetas a su estado prístino. Experimente nuestro compromiso con la artesanía y el estilo en cada puntada. Redefine tu armario con chaquetas que dicen mucho de tu estilo personal.';
+
+    document.getElementById('modalRopaMujer').innerHTML = 'Ropa de Mujer';
+    document.getElementById('descripcionModalRopaMujer').innerHTML = 'Bienvenido a Alterations for the Future, donde la moda femenina encuentra una nueva vida. Especializados en todo tipo de prendas de mujer, nuestra experiencia brilla en la restauración, personalización y mejora de cada detalle. Desde la ropa casual hasta la ropa formal, confíe en nosotros para devolver sus prendas a su estado prístino. Experimente nuestro compromiso con la artesanía y el estilo en cada puntada. Redefina su armario con ropa que dice mucho de su estilo personal.';
+
+
+    //TRADUCCION DE FORMULARIO
+    document.getElementById("name").placeholder = "Tu nombre*";
+    document.getElementById("nameFeedback").placeholder = "El nombre es requerido";
+
+    document.getElementById("email").placeholder = "Tu correo*";
+    document.getElementById("emailFeedback").placeholder = "El correo es requerido";
+
+    document.getElementById("phone").placeholder = "Tu teléfono*";
+    document.getElementById("phoneFeedback").placeholder = "El teléfono es requerido";
+
+    document.getElementById("message").placeholder = "Tu mensaje*";
+    document.getElementById("messageFeedback").placeholder = "El mensaje es requerido";
+  });
 
 document.getElementById("btnIngles").addEventListener("click", function () {
   // Change the text of elements with the "traducir" class to English
@@ -198,5 +221,29 @@ document.getElementById("btnIngles").addEventListener("click", function () {
     document.getElementById('modalPlayera').innerHTML = 'Shirts';
     document.getElementById('descripcionModalPlayera').innerHTML = 'Welcome to Alterations for the Future, your premier destination for T-shirt rejuvenation. We specialize in transforming all types of T-shirts, with a unique emphasis on innovative, high-performance materials. Our expert team is committed to restoring your cherished garments to their former glory, ensuring they remain your favorites for years to come. Trust in our skilled craftsmanship for meticulous care, whether reviving classic cotton or advanced technical fabrics.';
   
+    document.getElementById('ModalSudadera').innerHTML = 'Sweatshirts';
+    document.getElementById('descripcionModalSudadera').innerHTML = 'Welcome to Alterations for the Future, your destination for reviving cherished sweatshirts. Our expertise extends to refreshing all types of sweatshirts, ensuring comfort meets style. Trust in our skilled hands to bring warmth and new life to your favorite cozy layers. Experience the transformation with our meticulous attention to detail and quality craftsmanship.';
+
+    document.getElementById('descripcionModalPants').innerHTML = 'Welcome to Alterations for the Future, where we specialize in the art of pants revitalization. Our team possesses unmatched expertise in refurbishing all styles, with a keen focus on durability and fit. From casual slacks to professional trousers, trust us to restore your essentials to their peak condition. Experience precision tailoring and personalized care with every alteration. Step into the future of fashion with pants that feel brand new';
+
+    document.getElementById('modalChaquteas').innerHTML = 'Jackets';
+    document.getElementById('descripcionModalChaquetas').innerHTML = 'Welcome to Alterations for the Future, where your jackets find new life. Specializing in all types of outerwear, our expertise shines in restoring, customizing, and enhancing every detail. From classic leather to modern synthetics, trust us to return your jackets to their pristine condition. Experience our commitment to craftsmanship and style in every stitch. Redefine your wardrobe with jackets that speak volumes of your personal style.';
+
+    document.getElementById('modalRopaMujer').innerHTML = `Women's Clothing`;
+    document.getElementById('descripcionModalRopaMujer').innerHTML = `Discover the essence of style with our exclusive women's clothing collection. From timeless classics to modern trends, each piece is designed to enhance and celebrate your unique beauty. Indulge in our selection of fabrics, colors, and designs tailored to fit every aspect of your lifestyle. Embrace elegance, comfort, and sophistication with every garment, crafted just for you.`;
+
+    // TRANSLATION OF FORM
+    document.getElementById("name").placeholder = "Your name*";
+    document.getElementById("nameFeedback").placeholder = "Name is required";
+
+    document.getElementById("email").placeholder = "Your email*";
+    document.getElementById("emailFeedback").placeholder = "Email is required";
+
+    document.getElementById("phone").placeholder = "Your phone*";
+    document.getElementById("phoneFeedback").placeholder = "Phone is required";
+
+    document.getElementById("message").placeholder = "Your message*";
+    document.getElementById("messageFeedback").placeholder = "Message is required";
+
 
 });
