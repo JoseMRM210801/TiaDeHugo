@@ -247,3 +247,32 @@ document.getElementById("btnIngles").addEventListener("click", function () {
 
 
 });
+
+
+async function sendMessage (event){
+  event.preventDefault();
+  const body = {
+    name:  document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone : document.getElementById("phone").value,
+    message : document.getElementById("message").value
+  }
+ 
+
+  fetch('https://back-alteraciones-futuro-production.up.railway.app/api/contacto/sendInfo', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(body)
+  })
+    .then(response => response.json())
+    .then(data => {
+      // handle response data
+      console.log(data)
+    })
+    .catch(error => {
+      // handle error
+      console.log(error)
+    });
+}
