@@ -148,6 +148,9 @@ document.getElementById("btnEspanol").addEventListener("click", function () {
 
     document.getElementById("message").placeholder = "Tu mensaje*";
     document.getElementById("messageFeedback").placeholder = "El mensaje es requerido";
+  
+    document.getElementById('titleModal').innerHTML = 'Envío Exitoso';
+    document.getElementById('contenidoModal').innerHTML = 'Envío Exitoso';
   });
 
 document.getElementById("btnIngles").addEventListener("click", function () {
@@ -245,6 +248,8 @@ document.getElementById("btnIngles").addEventListener("click", function () {
     document.getElementById("message").placeholder = "Your message*";
     document.getElementById("messageFeedback").placeholder = "Message is required";
 
+    document.getElementById('titleModal').innerHTML = 'Successful Shipment';
+    document.getElementById('contenidoModal').innerHTML = 'Successful Shipment';
 
 });
 
@@ -269,7 +274,10 @@ async function sendMessage (event){
     .then(response => response.json())
     .then(data => {
       // handle response data
-      console.log(data)
+      var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
+        keyboard: true
+    });
+    myModal.show(); // Muestra el modal cuando el envío es exitoso
     })
     .catch(error => {
       // handle error
